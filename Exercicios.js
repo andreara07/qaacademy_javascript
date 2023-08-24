@@ -62,3 +62,37 @@ if(media>5){
     console.log("Exame!")
 }
 
+// 7.	Crie um método que retorne a multiplicação de 2 valores e imprima o retorno.
+function multipliccadacaoComRetorno(m,n){
+    const mult = m*n;
+    return mult;
+}
+console.log(multipliccadacaoComRetorno(7,2))
+
+// 8.	Crie um método que retorne uma frase e imprima o retorno.
+function fraseComRetorno(frase){
+    return frase;
+}
+console.log(fraseComRetorno("Curso de Automação Cypresss na QA Academy"))
+
+// 9.	Faça um método sem retorno e sem parâmetro para ler e exibir uma palavra.
+function palavraSemRetorno(){
+    const palavra = "mousepad";
+    console.log(palavra)
+}
+palavraSemRetorno();
+
+// 10.	Faça um método com retorno que receba como parâmetro dois valores e retorne os valores das variáveis trocadas.
+
+
+// 11.	Faça um método com retorno que receba como parâmetro um número inteiro e retorne true se o valor do parâmetro dividido por 2 for igual a 0. Caso contrário, retornar false.
+function inteiroComRetorno(g){
+    if((g/2)==0){
+        return true;
+    }else
+        return false;
+}
+console.log(inteiroComRetorno(4))
+    
+
+
