@@ -83,7 +83,13 @@ function palavraSemRetorno(){
 palavraSemRetorno();
 
 // 10.	Faça um método com retorno que receba como parâmetro dois valores e retorne os valores das variáveis trocadas.
-
+function trocarValores(v1,v2){
+    const trocar = v2;
+    v2 = v1;
+    v1 = trocar;
+    console.log("Valor 1: "+v1 +"\nValor 2: "+v2)
+}
+(trocarValores(1,2))
 
 // 11.	Faça um método com retorno que receba como parâmetro um número inteiro e retorne true se o valor do parâmetro dividido por 2 for igual a 0. Caso contrário, retornar false.
 function inteiroComRetorno(g){
